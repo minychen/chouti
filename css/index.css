@@ -15,6 +15,9 @@ body{
     background-color: #faffef;
     height:42px;
 }
+.header-right {
+    float:right;
+}
 #logo{
     float:left;
     padding-left: 200px;
@@ -49,7 +52,7 @@ nav#nav li.last{
 }
 #sousuo{
     float:right;
-
+    margin-right: 200px;
 }
 input{
     height:28px;
