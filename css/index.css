@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:#f3f3f3;
+    font-family:"微软雅黑";
+}
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+/*头部样式*/
+#nav{
+    background-color: #faffef;
+    height:42px;
+}
+#logo{
+    float:left;
+    padding-left: 200px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+nav#nav li{
+    display: inline-block;
+    padding: 0 10px;
+    float:left;
+    line-height: 42px;
+    border-right:solid 1px #2f89c5;
+    transition:background 1s linear;
+
+}
+nav#nav li.on,nav#nav li:hover{
+    background-color: #2f89c5;
+}
+nav#nav a{
+    height:42px;
+    text-decoration: none;
+
+    font-size: 16px;
+}
+nav#nav li.right{
+    margin-right:0px;
+    border:none;
+}
+nav#nav li.last{
+    border:none;
+}
+#sousuo{
+    float:right;
+
+}
+input{
+    height:28px;
+    margin-top: 5px;
+}
+input.s{
+    width: 45px;
+    height: 32px;
+}
